@@ -41,7 +41,7 @@ function EmployeeForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='form'>
       <label>
         First Name:
         <input type="text" value={firstName} onChange={e => setFirstName(e.target.value)} />
